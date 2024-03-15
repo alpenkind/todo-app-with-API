@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
+    <link rel="stylesheet" href="/style.css">
+    <title>To-Do-App</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="background"></div>
+        <div class="background2"></div>
+        <h1 class="heading">TODO</h1>
+        <form class="ctn-input">
+            <input type="text" name="task-input" id="task-input" placeholder="Enter task here">
+            <button class=" buttons btn-add">Add</button>
+        </form>
+    </header>
+    <div class="ctn-tasks">
+
+    </div>
+    </div>
+    <div class="ctn-filter">
+        <div>
+            <input type="radio" name="filter" value="all" id="all" checked>
+            <label for="all">All</label>
+        </div>
+        <div>
+            <input type="radio" name="filter" value="active" id="active">
+            <label for="active">Active</label>
+        </div>
+        <div>
+            <input type="radio" name="filter" value="done" id="done">
+            <label for="done">Done</label>
+        </div>
+        <button class="buttons btn-clear">Clear Done</button>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
